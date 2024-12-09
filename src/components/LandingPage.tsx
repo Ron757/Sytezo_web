@@ -40,7 +40,6 @@ export default function LandingPage() {
         }}
         className="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center z-20 bg-gradient-to-br from-black via-neutral-900 to-black"
       >
-        eslint-disable-next-line @next/next/no-img-element
         <img
           src="/sytezo.png"
           alt="Sytezo"
