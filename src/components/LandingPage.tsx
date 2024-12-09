@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Twitter, Linkedin, Instagram } from "lucide-react";
 
@@ -33,7 +34,7 @@ export default function LandingPage() {
       <motion.div
         style={{
           opacity: logoOpacity,
-          pointerEvents: isScrolled ? "none" : "auto", // Disable interactions when scrolled
+          pointerEvents: isScrolled ? "none" : "auto",
         }}
         className="fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center z-20 bg-gradient-to-br from-black via-neutral-900 to-black"
       >
@@ -42,6 +43,7 @@ export default function LandingPage() {
           alt="Sytezo"
           className="w-[100vw] h-[100vh] object-contain"
         />
+
         <motion.div
           animate={{
             y: [0, 20, 0],
