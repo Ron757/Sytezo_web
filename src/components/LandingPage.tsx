@@ -1,8 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, MotionProps } from "framer-motion";
 import { Twitter, Linkedin, Instagram } from "lucide-react";
+
+type MotionDivProps = React.HTMLAttributes<HTMLDivElement> & MotionProps;
 
 export default function LandingPage() {
   // State to track if user has scrolled
