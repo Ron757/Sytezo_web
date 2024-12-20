@@ -86,6 +86,8 @@ export default function LandingPage() {
           <div className="flex justify-center space-x-6 mt-12 z-50 relative">
             <a
               href="https://x.com/sytezo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white hover:text-blue-200 transition-colors duration-300"
               style={{ zIndex: 100 }}
             >
@@ -93,6 +95,8 @@ export default function LandingPage() {
             </a>
             <a
               href="https://www.linkedin.com/company/sytezo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white hover:text-blue-200 transition-colors duration-300"
               style={{ zIndex: 100 }}
             >
@@ -100,6 +104,8 @@ export default function LandingPage() {
             </a>
             <a
               href="https://www.instagram.com/sytezo.in"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white hover:text-blue-200 transition-colors duration-300"
               style={{ zIndex: 100 }}
             >
