@@ -92,14 +92,14 @@ export default function LandingPage() {
               <Twitter size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/company/sytezo/posts/?feedView=all"
+              href="https://www.linkedin.com/company/sytezo"
               className="text-white hover:text-blue-200 transition-colors duration-300"
               style={{ zIndex: 100 }}
             >
               <Linkedin size={24} />
             </a>
             <a
-              href="https://www.instagram.com/sytezo.in/?hl=en"
+              href="https://www.instagram.com/sytezo.in"
               className="text-white hover:text-blue-200 transition-colors duration-300"
               style={{ zIndex: 100 }}
             >
